@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D33C0FF1DB7B0A100FADBF2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33C0FE1DB7B0A100FADBF2 /* main.swift */; };
 		2D33C1061DB7B0D700FADBF2 /* BPVMamaPapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33C1051DB7B0D700FADBF2 /* BPVMamaPapa.swift */; };
+		2DB37CD51DBB2EFB00243EEA /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB37CD41DBB2EFB00243EEA /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		2D33C0FB1DB7B0A100FADBF2 /* SwiftProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D33C0FE1DB7B0A100FADBF2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2D33C1051DB7B0D700FADBF2 /* BPVMamaPapa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPVMamaPapa.swift; sourceTree = "<group>"; };
+		2DB37CD41DBB2EFB00243EEA /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				2D33C0FE1DB7B0A100FADBF2 /* main.swift */,
 				2D33C1051DB7B0D700FADBF2 /* BPVMamaPapa.swift */,
+				2DB37CD41DBB2EFB00243EEA /* UIView+Extensions.swift */,
 			);
 			path = SwiftProject;
 			sourceTree = "<group>";
@@ -97,6 +100,7 @@
 				TargetAttributes = {
 					2D33C0FA1DB7B0A100FADBF2 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -122,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB37CD51DBB2EFB00243EEA /* UIView+Extensions.swift in Sources */,
 				2D33C1061DB7B0D700FADBF2 /* BPVMamaPapa.swift in Sources */,
 				2D33C0FF1DB7B0A100FADBF2 /* main.swift in Sources */,
 			);
@@ -216,6 +221,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -223,6 +229,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -245,6 +252,7 @@
 				2D33C1041DB7B0A100FADBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
