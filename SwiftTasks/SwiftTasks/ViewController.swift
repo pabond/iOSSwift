@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var RoundedView: UIView!
+    @IBOutlet var roundedView: RoundedView!
+    @IBOutlet var roundView: RoundView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.RoundedView.roundedViewWithShadowing()
+        self.roundView.roundedViewWithShadowing()
+        self.roundedView.roundedView(cornerRadius: 8)
     }
 }

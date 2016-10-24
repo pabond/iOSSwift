@@ -14,7 +14,8 @@
 		2DB37D321DBB39B100243EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB37D301DBB39B100243EEA /* LaunchScreen.storyboard */; };
 		2DB37D3D1DBB39B100243EEA /* SwiftTasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB37D3C1DBB39B100243EEA /* SwiftTasksTests.swift */; };
 		2DB37D481DBB39B100243EEA /* SwiftTasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB37D471DBB39B100243EEA /* SwiftTasksUITests.swift */; };
-		2DB37D561DBB9A5300243EEA /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB37D551DBB9A5300243EEA /* UIView+Extensions.swift */; };
+		2DB37D5E1DBD3B8000243EEA /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB37D5D1DBD3B8000243EEA /* RoundedView.swift */; };
+		2DB37D621DBD3C5B00243EEA /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB37D611DBD3C5B00243EEA /* RoundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		2DB37D431DBB39B100243EEA /* SwiftTasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB37D471DBB39B100243EEA /* SwiftTasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTasksUITests.swift; sourceTree = "<group>"; };
 		2DB37D491DBB39B100243EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DB37D551DBB9A5300243EEA /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		2DB37D5D1DBD3B8000243EEA /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		2DB37D611DBD3C5B00243EEA /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,13 @@
 		2DB37D261DBB39B100243EEA /* SwiftTasks */ = {
 			isa = PBXGroup;
 			children = (
+				2DB37D571DBD3AFD00243EEA /* UIView subclasses */,
 				2DB37D271DBB39B100243EEA /* AppDelegate.swift */,
 				2DB37D291DBB39B100243EEA /* ViewController.swift */,
 				2DB37D2B1DBB39B100243EEA /* Main.storyboard */,
 				2DB37D2E1DBB39B100243EEA /* Assets.xcassets */,
 				2DB37D301DBB39B100243EEA /* LaunchScreen.storyboard */,
 				2DB37D331DBB39B100243EEA /* Info.plist */,
-				2DB37D551DBB9A5300243EEA /* UIView+Extensions.swift */,
 			);
 			path = SwiftTasks;
 			sourceTree = "<group>";
@@ -126,6 +128,16 @@
 				2DB37D491DBB39B100243EEA /* Info.plist */,
 			);
 			path = SwiftTasksUITests;
+			sourceTree = "<group>";
+		};
+		2DB37D571DBD3AFD00243EEA /* UIView subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				2DB37D5D1DBD3B8000243EEA /* RoundedView.swift */,
+				2DB37D611DBD3C5B00243EEA /* RoundView.swift */,
+			);
+			name = "UIView subclasses";
+			path = "UIView/UIView subclasses";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DB37D561DBB9A5300243EEA /* UIView+Extensions.swift in Sources */,
+				2DB37D5E1DBD3B8000243EEA /* RoundedView.swift in Sources */,
+				2DB37D621DBD3C5B00243EEA /* RoundView.swift in Sources */,
 				2DB37D2A1DBB39B100243EEA /* ViewController.swift in Sources */,
 				2DB37D281DBB39B100243EEA /* AppDelegate.swift in Sources */,
 			);

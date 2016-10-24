@@ -18,16 +18,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RyB-rO-XYB">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RyB-rO-XYB" customClass="RoundView" customModule="SwiftTasks" customModuleProvider="target">
                                 <frame key="frameInset" minX="67" minY="213" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2364128076" green="0.827818159" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JK9-tR-uhZ" customClass="RoundedView" customModule="SwiftTasks" customModuleProvider="target">
+                                <frame key="frameInset" minX="17.87%" minY="4.20%" width="34.13%" height="19.19%"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59865195130000004" green="0.66832553910000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="RoundedView" destination="RyB-rO-XYB" id="7Ly-RR-P9H"/>
+                        <outlet property="roundView" destination="RyB-rO-XYB" id="UJv-Ml-S7U"/>
+                        <outlet property="roundedView" destination="JK9-tR-uhZ" id="qUA-KD-OPZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -1,19 +1,19 @@
 //
-//  UIView+Extensions.swift
+//  RoundView.swift
 //  SwiftTasks
 //
-//  Created by Bondar Pavel on 10/22/16.
+//  Created by Bondar Pavel on 10/23/16.
 //  Copyright © 2016 Pavel Bondar. All rights reserved.
 //
+
+import UIKit
 
 let defaultShadowWidth = 10.0
 let defaultShadowHeigth = 10.0
 let defaultCornerRadius = 5.0
 let defaultShadowOpacity = 0.5
 
-import UIKit
-
-extension UIView {
+extension RoundView {
     func roundedViewWithShadowing() -> Void {
         self.roundedViewWithShadowing(shadowColor: UIColor.black)
     }
@@ -41,7 +41,7 @@ extension UIView {
                                   cornerRadius: CGFloat) -> Void
     {
         let layer = self.layer;
-        layer.cornerRadius = self.frame.width / 2
+        self.roundedView(cornerRadius: self.frame.width / 2)
         layer.masksToBounds = false
         
         layer.shadowColor = shadowColor.cgColor
@@ -50,4 +50,9 @@ extension UIView {
         layer.shadowRadius = CGFloat(cornerRadius)
         layer.shadowOpacity = Float(shadowOpacity)
     }
+}
+
+
+class RoundView: RoundedView {
+
 }
