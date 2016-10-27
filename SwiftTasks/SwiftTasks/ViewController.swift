@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     @IBOutlet var roundedView: RoundedView!
     @IBOutlet var roundView: RoundView!
 

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SwiftTasks
+//  PopoverPresentation
 //
-//  Created by Bondar Pavel on 10/22/16.
+//  Created by Bondar Pavel on 10/25/16.
 //  Copyright © 2016 Pavel Bondar. All rights reserved.
 //
 
@@ -13,27 +13,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-//
-//        let vc1 = UIViewController()
-//        let vc2 = UIViewController()
-//        let vc3 = UIViewController()
-//        
-//        vc1.view.backgroundColor = UIColor.red
-//        vc2.view.backgroundColor = UIColor.green
-//        vc3.view.backgroundColor = UIColor.blue
-//        
-//        vc1.title = "One"
-//        vc2.title = "Two"
-//        vc3.title = "Three"
-//        
-//        let settingsViewController = ViewController(nibName: "SettingsViewController", bundle: nil) as? SettingsViewController
-//        
-//        settingsViewController?.viewControllersArr = [vc1, vc2, vc3]
-//        
-//        // the window object is already created for us since this is a storyboard app
-//        window?.rootViewController = settingsViewController
-//        
+      
+    
+        
         return true
     }
 
